@@ -53,12 +53,12 @@ sketchybar --add item chevron left \
            --subscribe front_app front_app_switched
 
 sketchybar --add item clock right \
-           --set clock update_freq=10 icon= icon.color=0xffb1d99c script="$PLUGIN_DIR/clock.sh" \
+           --set clock update_freq=10 icon= icon.color=0xffb1d99c script="$PLUGIN_DIR/clock.sh" icon.padding_left=5 \
            --add item volume right \
-           --set volume script="$PLUGIN_DIR/volume.sh" icon.color=0xffeaac86 \
+           --set volume script="$PLUGIN_DIR/volume.sh" icon.color=0xffeaac86 icon.padding_left=5 \
            --subscribe volume volume_change \
            --add item battery right \
-           --set battery update_freq=120 script="$PLUGIN_DIR/battery.sh" icon.color=0xff90abed \
+           --set battery update_freq=120 script="$PLUGIN_DIR/battery.sh" icon.color=0xff90abed icon.padding_left=5 \
            --subscribe battery system_woke power_source_change
 
 sketchybar --update
