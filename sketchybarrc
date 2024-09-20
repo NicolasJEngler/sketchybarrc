@@ -16,7 +16,7 @@ default=(
   label.font="Hack Nerd Font:Bold:12.0"
   icon.color=0xffffffff
   label.color=0xffffffff
-  background.color=0xff242638
+  background.color=0xff4b4d5e
   background.corner_radius=5
   background.height=24
   icon.padding_left=4
@@ -35,7 +35,7 @@ do
     icon="${SPACE_ICONS[i]}"
     icon.padding_left=7
     icon.padding_right=7
-    background.color=0xff242638
+    background.color=0xff4b4d5e
     background.corner_radius=5
     background.height=24
     label.drawing=off
