@@ -40,6 +40,7 @@ do
     background.height=24
     label.drawing=off
     icon.color=0xffffffff
+    icon.font.size=12
     script="$PLUGIN_DIR/space.sh"
     click_script="yabai -m space --focus $sid"
   )
